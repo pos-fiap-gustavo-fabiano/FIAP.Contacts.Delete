@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4C70D856-0044-4DF6-BE45-089393FE07BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{D179D27A-BE0D-4043-94BE-20EBAD35385C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{3087E7BF-B2BB-4F4E-910B-E90245885548}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{DD9AE758-3B9A-460A-B47A-276A2584CBEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{48C605F9-2D97-4A7A-926F-563C89F5BFC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAP.Contacts.Delete.Application", "src\FIAP.Contacts.Delete.Application\FIAP.Contacts.Delete.Application.csproj", "{44948378-7AAF-572D-4767-47D605DEBD72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAP.Contacts.Delete.Consumer", "src\FIAP.Contacts.Delete.Consumer\FIAP.Contacts.Delete.Consumer.csproj", "{3391F1F3-C6EB-5920-F986-25FF54E88314}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAP.Contacts.Delete.Domain", "src\FIAP.Contacts.Delete.Domain\FIAP.Contacts.Delete.Domain.csproj", "{AAD8DF75-876A-0FD7-4AFF-7C2EB9B5CF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAP.Contacts.Delete.Infra", "src\FIAP.Contacts.Delete.Infra\FIAP.Contacts.Delete.Infra.csproj", "{435C4B00-2BDE-DECB-0CA8-AD45D8878EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAP.Contacts.Delete.IntegrationTest", "tests\FIAP.Contacts.Delete.IntegratedTests\FIAP.Contacts.Delete.IntegrationTest.csproj", "{4520F5B7-DD42-D30A-9EA0-AC1608CDFA54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAP.Contacts.Delete.UnitTest", "tests\FIAP.Contacts.Delete.Tests\FIAP.Contacts.Delete.UnitTest.csproj", "{15EC7C98-80C7-42C8-A306-F1B4F97BF71F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44948378-7AAF-572D-4767-47D605DEBD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44948378-7AAF-572D-4767-47D605DEBD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44948378-7AAF-572D-4767-47D605DEBD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44948378-7AAF-572D-4767-47D605DEBD72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3391F1F3-C6EB-5920-F986-25FF54E88314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3391F1F3-C6EB-5920-F986-25FF54E88314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3391F1F3-C6EB-5920-F986-25FF54E88314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3391F1F3-C6EB-5920-F986-25FF54E88314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD8DF75-876A-0FD7-4AFF-7C2EB9B5CF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD8DF75-876A-0FD7-4AFF-7C2EB9B5CF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD8DF75-876A-0FD7-4AFF-7C2EB9B5CF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD8DF75-876A-0FD7-4AFF-7C2EB9B5CF40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{435C4B00-2BDE-DECB-0CA8-AD45D8878EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435C4B00-2BDE-DECB-0CA8-AD45D8878EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435C4B00-2BDE-DECB-0CA8-AD45D8878EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435C4B00-2BDE-DECB-0CA8-AD45D8878EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4520F5B7-DD42-D30A-9EA0-AC1608CDFA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4520F5B7-DD42-D30A-9EA0-AC1608CDFA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4520F5B7-DD42-D30A-9EA0-AC1608CDFA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4520F5B7-DD42-D30A-9EA0-AC1608CDFA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15EC7C98-80C7-42C8-A306-F1B4F97BF71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EC7C98-80C7-42C8-A306-F1B4F97BF71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EC7C98-80C7-42C8-A306-F1B4F97BF71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EC7C98-80C7-42C8-A306-F1B4F97BF71F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44948378-7AAF-572D-4767-47D605DEBD72} = {DD9AE758-3B9A-460A-B47A-276A2584CBEC}
+		{3391F1F3-C6EB-5920-F986-25FF54E88314} = {3087E7BF-B2BB-4F4E-910B-E90245885548}
+		{AAD8DF75-876A-0FD7-4AFF-7C2EB9B5CF40} = {4C70D856-0044-4DF6-BE45-089393FE07BA}
+		{435C4B00-2BDE-DECB-0CA8-AD45D8878EBB} = {D179D27A-BE0D-4043-94BE-20EBAD35385C}
+		{4520F5B7-DD42-D30A-9EA0-AC1608CDFA54} = {48C605F9-2D97-4A7A-926F-563C89F5BFC1}
+		{15EC7C98-80C7-42C8-A306-F1B4F97BF71F} = {48C605F9-2D97-4A7A-926F-563C89F5BFC1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B216E5B-400E-4411-A95A-F64FDB479B2E}
+	EndGlobalSection
+EndGlobal

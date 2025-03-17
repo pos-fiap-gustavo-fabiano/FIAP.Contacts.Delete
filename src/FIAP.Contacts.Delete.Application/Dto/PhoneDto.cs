@@ -1,0 +1,7 @@
+﻿namespace FIAP.Contacts.Delete.Application.Dto;
+
+public class PhoneDto
+{
+    public int DDD { get; set; }
+    public string Number { get; set; }
+}
