@@ -53,7 +53,7 @@ var host = Host.CreateDefaultBuilder(args)
             });
         });
 
-        var serviceName = "fiap-contact-create";
+        var serviceName = "fiap-contact-delete";
         var serviceVersion = "1.0.0";
 
         // Create a single ActivitySource that can be used throughout the application
