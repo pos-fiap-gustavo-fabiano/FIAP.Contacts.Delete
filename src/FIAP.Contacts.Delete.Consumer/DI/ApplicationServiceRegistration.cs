@@ -3,10 +3,8 @@ using Microsoft.Extensions.Logging;
 using OpenTelemetry.Metrics;
 using Serilog;
 using Serilog.Extensions.Logging;
-using System.Diagnostics.Metrics;
 using System.Diagnostics;
-using FIAP.Contacts.Delete.Consumer.Mapping;
-using MassTransit;
+using System.Diagnostics.Metrics;
 
 namespace FIAP.Contacts.Delete.Consumer.DI;
 
@@ -23,8 +21,6 @@ public static class ApplicationServiceRegistration
 
         services.AddSingleton<ILoggerFactory>(new SerilogLoggerFactory(loggerConfig));
         services.AddLogging();
-
-        services.AddAutoMapper(typeof(MappingProfile));
 
         return services;
     }

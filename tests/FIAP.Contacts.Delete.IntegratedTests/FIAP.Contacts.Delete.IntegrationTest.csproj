@@ -27,7 +27,6 @@
 		<ProjectReference Include="..\..\src\FIAP.Contacts.Delete.Domain\FIAP.Contacts.Delete.Domain.csproj" />
 		<ProjectReference Include="..\..\src\FIAP.Contacts.Delete.Infra\FIAP.Contacts.Delete.Infra.csproj" />
 		<ProjectReference Include="..\FIAP.Contacts.Delete.Tests\FIAP.Contacts.Delete.UnitTest.csproj" />
-		<ProjectReference Include="..\FIAP.PhaseOne.Tests\FIAP.Contacts.Delete.UnitTest.csproj" />
 	</ItemGroup>
 
 </Project>
