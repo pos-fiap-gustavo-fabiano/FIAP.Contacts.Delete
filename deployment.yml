@@ -1,3 +1,16 @@
+# ConfigMap
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: contacts-delete-config
+data:
+  ASPNETCORE_ENVIRONMENT: "Development"
+  RabbitMq__Host: "amqps://admin:admin@rabbitmq:5672/"
+  RabbitMq__Queue: "contact.delete"
+
+---
+
+# Deployment
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -5,7 +18,7 @@ metadata:
   labels:
     app: contact-delete
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: contact-delete
@@ -19,6 +32,9 @@ spec:
           image: gugol94/fiapcontacts-delete:latest
           ports:
             - containerPort: 80
+          envFrom:
+            - configMapRef:
+                name: contacts-delete-config
           resources:
             requests:
               memory: "128Mi"
